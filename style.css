@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&family=Ubuntu:wght@300&display=swap');
+
+/* Set variables */
+:root {
+    --font-size-3: 1.15rem;
+    --font-size-4: 1rem;
+
+    --font-size-small: 0.8rem;
+    --font-size-xsmall: 0.6rem;
+}
+
+/* Set padding and margin */
+
+/* body */
+html, body{
+    font-family: 'Ubuntu', 'sans-serif';
+    background-color: #2e3440;
+    font-size: 1.1em;
+}
+
+::selection {
+    background-color: purple;
+    color: white;
+}
+
+.container{
+    width: 40em;
+    margin: 4em auto;
+}
+
+/****************************/
+
+/* headers */
+h1 {
+    font-family: 'Raleway', 'sans-serif';
+    font-style: italic;
+    font-size: 2em;
+}
+
+h1, pre {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3{
+    font-size: var(--font-size-3);
+    display: grid;
+    margin:0;
+}
+h4{font-size: var(--font-size-3);}
+h5{font-size: var(--font-size-3);}
+
+h1, h2, h3, h4, h5, h6{
+    color: #eceff4;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-left:1em;
+    font-weight: 300;
+}
+/** ******************** */
+
+/* Code */
+pre{
+    margin: 1rem;
+    background-color: #E1E4EA;
+    border-radius: 0.2rem;
+    font-size: var(--font-size-small) !important;
+    font-family: "Courier New", monospace;
+    font-size: var(--font-size-4)
+    max-width: 100%;
+    overflow-x: auto;
+    color: #2e3440;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 1.2em;
+    margin-right: .4em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+p, ol, ul, table, code{
+
+    color: #eceff4;
+}
+
+table, blockquote, pre, ol, ul, p, #postamble{
+    margin-top: 1rem;
+}
+
+a{
+    color: #E3ACF9;
+    text-decoration-line: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.todo{
+    color: #7D161A;
+		font-weight: 400;
+}
+
+.done{
+    color: green;
+    font-weight: 400;
+}
+
